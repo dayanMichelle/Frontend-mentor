@@ -12,3 +12,8 @@
 .bnInfo p {
     line-height: 2;
 }
+@media screen and (max-width:900px) {
+    .bnInfo{
+        text-align: center;
+    }
+}

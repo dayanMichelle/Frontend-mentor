@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.formContainer {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+}
+.formContainer input {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var( --neutral-secondary-color);
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+}
+.formContainer input::placeholder {
+    color: var( --neutral-secondary-color);
+}
+.formContainer button{
+    padding: 15px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    border-radius:10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 13px 16px -11px rgba(0, 0, 0, 0.75);
+}
+.formContainer p {
+    color: var( --neutral-secondary-color);
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+.formContainer span {
+    color: var(--primary-color);
+    font-weight: 700;
+
+}

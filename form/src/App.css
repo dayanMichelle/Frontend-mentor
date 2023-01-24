@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../src/assets/images/bg-intro-desktop.png);
+    background-color:  var(--primary-color) ;
+}
+.App {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width:900px){
+    .App {
+        flex-direction: column;
+    }
+}

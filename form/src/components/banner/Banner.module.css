@@ -1,0 +1,14 @@
+.bnInfo {
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    margin: 20px;
+}
+.bnInfo h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.bnInfo p {
+    line-height: 2;
+}

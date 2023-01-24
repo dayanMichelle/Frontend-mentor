@@ -1,4 +1,4 @@
-# Form_frontend-mentor
+# Intro component with sign-up form
 ## Demo
 ![Desktop](./demo/desktop.png)
 

@@ -4,6 +4,7 @@
     margin: 0 auto;
     font-family: 'Overpass', sans-serif;
     margin: 20px;
+    text-align: center;
 }
 .bnInfo h2 {
     font-size: 36px;
@@ -12,8 +13,8 @@
 .bnInfo p {
     line-height: 2;
 }
-@media screen and (max-width:900px) {
+@media screen and (min-width:900px) {
     .bnInfo{
-        text-align: center;
+        text-align: left;
     }
 }

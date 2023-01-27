@@ -1,9 +1,23 @@
-import styles from './Input.module.css'
-export const Input = ({width, placeholder}) => {
-    return (
-        <input  className={styles.input} style={{
-            width:width
-        }}
-        placeholder={placeholder}/>
-    )
-}
+import styles from "./Input.module.css";
+
+export const Input = ({
+  width,
+  placeholder,
+  value,
+  setValue,
+  name,
+}) => {
+
+  return (
+    <input
+      onChange={setValue}
+      value={value}
+      className={styles.input}
+      style={{
+        width,
+      }}
+      placeholder={placeholder}
+      name={name}
+    />
+  );
+};

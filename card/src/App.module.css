@@ -1,0 +1,17 @@
+.bgviolet {
+    background-image: url(./assets/images/bg-main-desktop.png);
+    background-size: cover;
+    width: 500px;
+    height: 100vh;
+}
+.imgFront {
+    position: absolute;
+    top: 50px;
+}
+
+.imgFront img {
+    position: relative;
+}
+.container {
+  display: flex;
+}

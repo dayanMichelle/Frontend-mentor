@@ -1,6 +1,10 @@
 .p {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Overpass", sans-serif;
+  z-index: 200;
+  letter-spacing: 6px;
+  font-size: 20px;
+  position: relative;
 }

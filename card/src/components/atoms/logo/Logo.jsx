@@ -1,8 +1,8 @@
 
-export function Logo({img}) {
+export function Logo({img,styles}) {
   return (
     <div>
-      <img src={img} />
+      <img src={img} styles={styles} />
     </div>
   );
 }

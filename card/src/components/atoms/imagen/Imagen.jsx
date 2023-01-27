@@ -1,8 +1,5 @@
-import imageCard from "../../../assets/images/bg-card-back.png";
-export function Imagen({ img }) {
+export function Imagen({ img, styles }) {
   return (
-    <div>
-      <img src={img} />
-    </div>
+      <img style={styles}  src={img} />
   );
 }

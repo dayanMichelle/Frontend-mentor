@@ -1,0 +1,11 @@
+.input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+}
+.input::placeholder {
+    padding: 10px;
+    font-family: 'Overpass', sans-serif;
+}

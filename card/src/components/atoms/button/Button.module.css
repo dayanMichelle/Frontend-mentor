@@ -1,0 +1,15 @@
+.btn {
+    width: 300px;
+    height: 40px;
+    text-transform: capitalize;
+    background-color: hsl(278, 68%, 11%);
+    border: none;
+    border-radius: 10px;
+    color:  hsl(270, 3%, 87%);
+    font-family: 'Overpass', sans-serif;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(279, 6%, 55%);
+    transition: 0.3s all ease;
+}

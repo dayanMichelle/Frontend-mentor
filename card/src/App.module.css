@@ -15,3 +15,12 @@
 .container {
   display: flex;
 }
+
+@media screen and (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+    .bgviolet{
+        background-image: url(./assets/images/bg-main-mobile.png);
+    }
+}

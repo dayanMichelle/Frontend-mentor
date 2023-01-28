@@ -3,9 +3,13 @@ import { DateForm } from "../../moleculas/Date/DateForm";
 import { Label } from "../../moleculas/Label/Label";
 import sytles from "./Form.module.css";
 
-export function Form({ inputValues, handleChange }) {
+export function Form({ inputValues, handleChange, setCompleted }) {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setCompleted(true);
+  };
   return (
-    <form className={sytles.form}>
+    <form onSubmit={handleSubmit} className={sytles.form}>
       <Label
         text="cardholder name"
         placeholder="e.g Jane Appleseed"
